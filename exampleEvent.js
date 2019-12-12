@@ -1,4 +1,4 @@
-(function () {
+; (function () {
     if (document.readyState !== 'loading') {
         run();
     } else {
@@ -7,7 +7,7 @@
 
     function run() {
         function sillyLog() {
-            console.log("click");
+            console.log("I am silly !");
         }
         document.getElementById("ID1").addEventListener("click", sillyLog);
         document.getElementById("ID2").addEventListener("click", sillyLog);

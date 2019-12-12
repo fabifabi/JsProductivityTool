@@ -1,7 +1,6 @@
 ; (function () {
-    function initDebug() {
-        if (debug === undefined || debug === false)
-            window.log = function () { };
+    if (debug === undefined || debug === false) {
+        window.log = function () { };
         return;
     }
     window.log = function () {
